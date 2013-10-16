@@ -12,6 +12,7 @@ apply plugin: 'cobertura'
 
 apply from: 'repos.gradle'
 apply from: 'sonar.gradle'
+apply from: 'docs.gradle'
 
 group = 'com.aestasit.gradle'
 version = '0.1-SNAPSHOT'
